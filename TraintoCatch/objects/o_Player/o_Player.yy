@@ -6,8 +6,8 @@
   "name":"o_Player",
   "overriddenProperties":[],
   "parent":{
-    "name":"TraintoCatch",
-    "path":"TraintoCatch.yyp",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

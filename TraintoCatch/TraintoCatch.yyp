@@ -23,8 +23,10 @@
   "name":"TraintoCatch",
   "resources":[
     {"id":{"name":"o_Player","path":"objects/o_Player/o_Player.yy",},},
+    {"id":{"name":"o_prototypePlatform","path":"objects/o_prototypePlatform/o_prototypePlatform.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"playerSprite","path":"sprites/playerSprite/playerSprite.yy",},},
+    {"id":{"name":"s_prototypePlatform","path":"sprites/s_prototypePlatform/s_prototypePlatform.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
