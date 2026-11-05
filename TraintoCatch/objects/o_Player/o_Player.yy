@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"objectForTesting",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"o_Player",
+  "eventList":[],
   "managed":true,
-  "name":"objectForTesting",
+  "name":"o_Player",
   "overriddenProperties":[],
   "parent":{
     "name":"TraintoCatch",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"testSpriteForCoding",
-    "path":"sprites/testSpriteForCoding/testSpriteForCoding.yy",
+    "name":"playerSprite",
+    "path":"sprites/playerSprite/playerSprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,

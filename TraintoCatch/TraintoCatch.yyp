@@ -9,7 +9,10 @@
     "name":"Default",
   },
   "defaultScriptType":0,
-  "Folders":[],
+  "Folders":[
+    {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+  ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
   "isEcma":false,
@@ -19,10 +22,9 @@
   },
   "name":"TraintoCatch",
   "resources":[
-    {"id":{"name":"objectForTesting","path":"objects/objectForTesting/objectForTesting.yy",},},
+    {"id":{"name":"o_Player","path":"objects/o_Player/o_Player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"playerSprite","path":"sprites/playerSprite/playerSprite.yy",},},
-    {"id":{"name":"testSpriteForCoding","path":"sprites/testSpriteForCoding/testSpriteForCoding.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
