@@ -10,17 +10,6 @@ direction = 0;
 /// @DnDArgument : "speed" "55"
 speed = 55;
 
-/// @DnDAction : YoYo Games.Collisions.If_Collision_Point
-/// @DnDVersion : 1
-/// @DnDHash : 3D16DCB5
-var l3D16DCB5_0 = collision_point(0, 0, [noone], true, 1);if((l3D16DCB5_0)){}
-
-/// @DnDAction : YoYo Games.Movement.Set_Direction_Fixed
-/// @DnDVersion : 1.1
-/// @DnDHash : 33B95371
-/// @DnDArgument : "direction" "180"
-direction = 180;
-
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 /// @DnDVersion : 1
 /// @DnDHash : 5C12C390
