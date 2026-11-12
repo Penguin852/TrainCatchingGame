@@ -22,6 +22,7 @@
   },
   "name":"TraintoCatch",
   "resources":[
+    {"id":{"name":"o_ghostTrail","path":"objects/o_ghostTrail/o_ghostTrail.yy",},},
     {"id":{"name":"o_MainPlatform","path":"objects/o_MainPlatform/o_MainPlatform.yy",},},
     {"id":{"name":"o_Player","path":"objects/o_Player/o_Player.yy",},},
     {"id":{"name":"o_prototypePlatform","path":"objects/o_prototypePlatform/o_prototypePlatform.yy",},},
