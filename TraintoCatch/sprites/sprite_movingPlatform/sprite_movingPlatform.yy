@@ -1,7 +1,7 @@
 {
   "$GMSprite":"v2",
   "%Name":"sprite_movingPlatform",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":43,
   "bbox_left":8,
   "bbox_right":119,

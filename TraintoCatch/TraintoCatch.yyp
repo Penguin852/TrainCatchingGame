@@ -19,7 +19,7 @@
   },
   "name":"TraintoCatch",
   "resources":[
-    {"id":{"name":"Object1","path":"objects/Object1/Object1.yy",},},
+    {"id":{"name":"object_player","path":"objects/object_player/object_player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"playerSprite_airDash","path":"sprites/playerSprite_airDash/playerSprite_airDash.yy",},},
     {"id":{"name":"playerSprite_crouch","path":"sprites/playerSprite_crouch/playerSprite_crouch.yy",},},
