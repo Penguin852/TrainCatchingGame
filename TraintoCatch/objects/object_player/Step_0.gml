@@ -1,32 +1,42 @@
-var _right = keyboard_check(ord("D"));
-var _left = keyboard_check(ord("A"));
-var _up = keyboard_check(ord("W"));
-var _down = keyboard_check(ord("S"));
+_right = keyboard_check(ord("D"));
+_left = keyboard_check(ord("A"));
+_jumpKeyPressed = keyboard_check(vk_space);
 
-var _xinput = _right - _left;
-var _yinput = _down - _up;
+xSpeed = (_right - _left) * moveSpeed;
+ySpeed += grav;
 
-move_and_collide(_xinput * player_speed, _yinput * player_speed, o_movingPlatform);
 
-/* ========================================
-		GROUND CHECK
-===========================================  */
-is_grounded = place_meeting(x, y + 1, o_movingPlatform);
-
-// Reset dash when grounded
-if (is_grounded)
+if (_jumpKeyPressed && place_meeting (x, y + 1, o_movingPlatform))
 {
-	can_air_dash = true;
-	is_dashing = false;
+	ySpeed = jumpSpeed;
 }
 
-/* ========================================
-		JUMPING
-===========================================  */
-if (keyboard_check(vk_space) && is_grounded)
+if (place_meeting(x + xSpeed, y, o_movingPlatform))
 {
-	vspeed = sqrt(128 * gravity)
+	var _xpixelCheck = sign(xSpeed);
+	
+	while (!place_meeting (x + _xpixelCheck, y, o_movingPlatform))
+	{
+		x += _xpixelCheck;
+	}
+	
+	xSpeed = 0;
 }
+
+if (place_meeting(x + xSpeed, y + ySpeed, o_movingPlatform))
+{
+	var _ypixelCheck = sign(ySpeed);
+	
+	while (!place_meeting(x + xSpeed, y + _ypixelCheck, o_movingPlatform))
+	{
+		y += _ypixelCheck;
+	}
+	
+	ySpeed = 0;
+}
+
+x += xSpeed;
+y += ySpeed;
 
 /* =========================================
 		AIR DASH
