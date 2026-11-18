@@ -7,3 +7,6 @@ grav = 0.25;
 
 dashSpeed = 15;
 dashDuration = 0;
+
+moveY = 0;
+moveX = 0;

@@ -48,6 +48,23 @@ if (place_meeting(x + xSpeed, y + ySpeed, o_platforms))
 	ySpeed = 0;
 }
 
+var _movingPlatforms = instance_place(x, y + max(1, moveY), o_platforms);
+if (_movingPlatforms && bbox_bottom <= _movingPlatforms.bbox_top)
+{
+	if (moveY > 0)
+	{
+		while (!place_meeting(x, y + sign(moveY), o_platforms))
+		{
+			y += sign(moveY);
+		}
+		
+		moveY = 0;
+	}
+	
+	x += _movingPlatforms.moveX;
+	y += _movingPlatforms.moveY;
+}
+
 x += xSpeed;
 y += ySpeed;
 

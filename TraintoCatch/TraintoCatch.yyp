@@ -24,6 +24,7 @@
   "resources":[
     {"id":{"name":"o_crate","path":"objects/o_crate/o_crate.yy",},},
     {"id":{"name":"o_movingPlatform","path":"objects/o_movingPlatform/o_movingPlatform.yy",},},
+    {"id":{"name":"o_platformPoints","path":"objects/o_platformPoints/o_platformPoints.yy",},},
     {"id":{"name":"o_platforms","path":"objects/o_platforms/o_platforms.yy",},},
     {"id":{"name":"o_playerDashTrail","path":"objects/o_playerDashTrail/o_playerDashTrail.yy",},},
     {"id":{"name":"o_standardPlatform","path":"objects/o_standardPlatform/o_standardPlatform.yy",},},
@@ -38,6 +39,7 @@
     {"id":{"name":"playerSprite_walk","path":"sprites/playerSprite_walk/playerSprite_walk.yy",},},
     {"id":{"name":"sprite_1Platform","path":"sprites/sprite_1Platform/sprite_1Platform.yy",},},
     {"id":{"name":"sprite_movingPlatform","path":"sprites/sprite_movingPlatform/sprite_movingPlatform.yy",},},
+    {"id":{"name":"sprite_points","path":"sprites/sprite_points/sprite_points.yy",},},
     {"id":{"name":"TilesetVentVer1","path":"sprites/TilesetVentVer1/TilesetVentVer1.yy",},},
     {"id":{"name":"TilesetWallVer3","path":"sprites/TilesetWallVer3/TilesetWallVer3.yy",},},
     {"id":{"name":"Train_Crate2","path":"sprites/Train_Crate2/Train_Crate2.yy",},},
