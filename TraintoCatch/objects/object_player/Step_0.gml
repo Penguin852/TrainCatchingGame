@@ -4,22 +4,31 @@ _jumpKeyPressed = keyboard_check(vk_space);
 _dashKeyPressed = keyboard_check(vk_shift);
 _crouchKeyPressed = keyboard_check(ord("C"));
 
-var onGround = place_meeting (x, y + 1, o_movingPlatform);
+var onGround = place_meeting (x, y + 1, o_platforms);
 
 xSpeed = (_right - _left) * moveSpeed;
 ySpeed += grav;
 
+if (_right)
+{
+	image_xscale = 1;
+}
 
-if (_jumpKeyPressed && place_meeting (x, y + 1, o_movingPlatform))
+if (_left)
+{
+	image_xscale = -1;
+}
+
+if (_jumpKeyPressed && place_meeting (x, y + 1, o_platforms))
 {
 	ySpeed = jumpSpeed;
 }
 
-if (place_meeting(x + xSpeed, y, o_movingPlatform))
+if (place_meeting(x + xSpeed, y, o_platforms))
 {
 	var _xpixelCheck = sign(xSpeed);
 	
-	while (!place_meeting (x + _xpixelCheck, y, o_movingPlatform))
+	while (!place_meeting (x + _xpixelCheck, y, o_platforms))
 	{
 		x += _xpixelCheck;
 	}
@@ -27,11 +36,11 @@ if (place_meeting(x + xSpeed, y, o_movingPlatform))
 	xSpeed = 0;
 }
 
-if (place_meeting(x + xSpeed, y + ySpeed, o_movingPlatform))
+if (place_meeting(x + xSpeed, y + ySpeed, o_platforms))
 {
 	var _ypixelCheck = sign(ySpeed);
 	
-	while (!place_meeting(x + xSpeed, y + _ypixelCheck, o_movingPlatform))
+	while (!place_meeting(x + xSpeed, y + _ypixelCheck, o_platforms))
 	{
 		y += _ypixelCheck;
 	}

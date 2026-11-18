@@ -9,7 +9,10 @@
     "name":"TraintoCatch",
     "path":"TraintoCatch.yyp",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"o_platforms",
+    "path":"objects/o_platforms/o_platforms.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
