@@ -103,4 +103,17 @@ if(is_dashing)
 	trail_spawn_timer--;
 	if(trail_spawn_timer <= 0)
 	{
-		var ghost = instance_create_layer(x - 15, y, layer, 
+		var ghost = instance_create_layer(x - 15, y, layer, o_playerDashTrail);
+	
+	ghost.sprite_index = sprite_index;
+	ghost.image_index = image_index;
+	ghost.image_xscale = image_xscale;
+	ghost.image_yscale = image_yscale;
+	ghost.image_angle = image_angle;
+	
+	ghost.image_alpha = trail_alpha;
+	ghost.image_blend = c_aqua;
+	ghost.fade_speed = trail_fade_speed;
+	
+	ghost.depth = depth + 1;
+	trail_spawn_timer = trail_spawn_rate;
