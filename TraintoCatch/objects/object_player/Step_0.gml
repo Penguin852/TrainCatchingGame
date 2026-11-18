@@ -1,22 +1,12 @@
-/* ========================================
-		PLAYER INPUT 
-===========================================  */
-if (keyboard_check(ord("A"))) // Move left
-{
-	x = x - 2;
-	image_xscale = -1;
-}
+var _right = keyboard_check(ord("D"));
+var _left = keyboard_check(ord("A"));
+var _up = keyboard_check(ord("W"));
+var _down = keyboard_check(ord("S"));
 
-if (keyboard_check(ord("D")))  // Move right
-{
-	x = x + 2;
-	image_xscale = 1;
-}
+var _xinput = _right - _left;
+var _yinput = _down - _up;
 
-if (keyboard_check(ord("S")))
-{
-	y = y + 2;
-}
+move_and_collide(_xinput * player_speed, _yinput * player_speed, o_movingPlatform);
 
 /* ========================================
 		GROUND CHECK
