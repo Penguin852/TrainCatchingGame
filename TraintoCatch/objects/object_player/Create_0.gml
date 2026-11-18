@@ -2,7 +2,7 @@ xSpeed = 0;
 ySpeed = 0;
 
 moveSpeed = 6;
-jumpSpeed = -6;
+jumpSpeed = -7;
 grav = 0.25;
 
 dashSpeed = 15;

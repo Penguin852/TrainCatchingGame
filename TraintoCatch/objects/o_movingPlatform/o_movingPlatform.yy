@@ -11,8 +11,8 @@
   "name":"o_movingPlatform",
   "overriddenProperties":[],
   "parent":{
-    "name":"TraintoCatch",
-    "path":"TraintoCatch.yyp",
+    "name":"objects1",
+    "path":"folders/objects1.yy",
   },
   "parentObjectId":{
     "name":"o_platforms",

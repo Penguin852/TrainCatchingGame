@@ -9,7 +9,10 @@
     "name":"Default",
   },
   "defaultScriptType":0,
-  "Folders":[],
+  "Folders":[
+    {"$GMFolder":"","%Name":"sprites1","folderPath":"folders/sprites1.yy","name":"sprites1","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"objects1","folderPath":"folders/objects1.yy","name":"objects1","resourceType":"GMFolder","resourceVersion":"2.0",},
+  ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"Background Image 1-20261116-204107.piskel","CopyToMask":-1,"filePath":"datafiles","name":"Background Image 1-20261116-204107.piskel","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
@@ -22,6 +25,7 @@
   },
   "name":"TraintoCatch",
   "resources":[
+    {"id":{"name":"GameFont","path":"fonts/GameFont/GameFont.yy",},},
     {"id":{"name":"o_crate","path":"objects/o_crate/o_crate.yy",},},
     {"id":{"name":"o_movingPlatform","path":"objects/o_movingPlatform/o_movingPlatform.yy",},},
     {"id":{"name":"o_platformPoints","path":"objects/o_platformPoints/o_platformPoints.yy",},},
@@ -29,6 +33,7 @@
     {"id":{"name":"o_playerDashTrail","path":"objects/o_playerDashTrail/o_playerDashTrail.yy",},},
     {"id":{"name":"o_standardPlatform","path":"objects/o_standardPlatform/o_standardPlatform.yy",},},
     {"id":{"name":"object_player","path":"objects/object_player/object_player.yy",},},
+    {"id":{"name":"mainMenu","path":"rooms/mainMenu/mainMenu.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Background_Image_1_1_png","path":"sprites/Background_Image_1_1_png/Background_Image_1_1_png.yy",},},
     {"id":{"name":"Background_Image_2_1_png","path":"sprites/Background_Image_2_1_png/Background_Image_2_1_png.yy",},},
@@ -38,6 +43,7 @@
     {"id":{"name":"playerSprite_jump","path":"sprites/playerSprite_jump/playerSprite_jump.yy",},},
     {"id":{"name":"playerSprite_walk","path":"sprites/playerSprite_walk/playerSprite_walk.yy",},},
     {"id":{"name":"sprite_1Platform","path":"sprites/sprite_1Platform/sprite_1Platform.yy",},},
+    {"id":{"name":"sprite_menuPlayButton","path":"sprites/sprite_menuPlayButton/sprite_menuPlayButton.yy",},},
     {"id":{"name":"sprite_movingPlatform","path":"sprites/sprite_movingPlatform/sprite_movingPlatform.yy",},},
     {"id":{"name":"sprite_points","path":"sprites/sprite_points/sprite_points.yy",},},
     {"id":{"name":"TilesetVentVer1","path":"sprites/TilesetVentVer1/TilesetVentVer1.yy",},},
@@ -48,6 +54,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"mainMenu","path":"rooms/mainMenu/mainMenu.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

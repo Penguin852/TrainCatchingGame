@@ -27,8 +27,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"TraintoCatch",
-    "path":"TraintoCatch.yyp",
+    "name":"sprites1",
+    "path":"folders/sprites1.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
