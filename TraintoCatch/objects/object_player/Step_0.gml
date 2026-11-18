@@ -117,3 +117,6 @@ if(is_dashing)
 	
 	ghost.depth = depth + 1;
 	trail_spawn_timer = trail_spawn_rate;
+	}
+}
+

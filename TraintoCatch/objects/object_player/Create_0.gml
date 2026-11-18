@@ -25,16 +25,6 @@ is_dashing = false;
 
 is_grounded = false;
 
-/* =============================================
-		CAMERA SETTINGS
-================================================ */
-camera_set_view_speed(view_camera [0], 5, 5);
-
-
-// Camera position
-cam_x = camera_get_view_x(view_camera[0]);
-cam_y = camera_get_view_y(view_camera[0]);
-camera_set_view_pos(view_camera[0], 0, 0);
 
 /* =============================================
 		DASH TRAIL SETTINGS
