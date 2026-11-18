@@ -1,8 +1,8 @@
 xSpeed = 0;
 ySpeed = 0;
 
-moveSpeed = 2;
-jumpSpeed = -5;
+moveSpeed = 6;
+jumpSpeed = -6;
 grav = 0.25;
 
 dashSpeed = 15;
