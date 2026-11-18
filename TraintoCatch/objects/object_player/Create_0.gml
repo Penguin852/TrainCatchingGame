@@ -40,7 +40,7 @@ camera_set_view_pos(view_camera[0], 0, 0);
 		DASH TRAIL SETTINGS
 ================================================  */
 trail_spawn_rate = 2;
-trail_spawn_timer = 0;
+trail_spawn_timer = 5;
 
 trail_alpha = 0.5;
 trail_fade_speed = 0.06;
