@@ -9,7 +9,14 @@
     "name":"Default",
   },
   "defaultScriptType":0,
+<<<<<<< Updated upstream
   "Folders":[],
+=======
+  "Folders":[
+    {"$GMFolder":"","%Name":"objects1","folderPath":"folders/objects1.yy","name":"objects1","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"sprites1","folderPath":"folders/sprites1.yy","name":"sprites1","resourceType":"GMFolder","resourceVersion":"2.0",},
+  ],
+>>>>>>> Stashed changes
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
   "isEcma":false,
@@ -27,6 +34,17 @@
     {"id":{"name":"playerSprite_jump","path":"sprites/playerSprite_jump/playerSprite_jump.yy",},},
     {"id":{"name":"playerSprite_walk","path":"sprites/playerSprite_walk/playerSprite_walk.yy",},},
     {"id":{"name":"sprite_movingPlatform","path":"sprites/sprite_movingPlatform/sprite_movingPlatform.yy",},},
+<<<<<<< Updated upstream
+=======
+    {"id":{"name":"sprite_points","path":"sprites/sprite_points/sprite_points.yy",},},
+    {"id":{"name":"TilesetFloorVer10_1_png","path":"sprites/TilesetFloorVer10_1_png/TilesetFloorVer10_1_png.yy",},},
+    {"id":{"name":"TilesetVentVer1","path":"sprites/TilesetVentVer1/TilesetVentVer1.yy",},},
+    {"id":{"name":"TilesetWallVer3","path":"sprites/TilesetWallVer3/TilesetWallVer3.yy",},},
+    {"id":{"name":"Train_Crate2","path":"sprites/Train_Crate2/Train_Crate2.yy",},},
+    {"id":{"name":"BuildingTiles","path":"tilesets/BuildingTiles/BuildingTiles.yy",},},
+    {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
+    {"id":{"name":"TileSet3","path":"tilesets/TileSet3/TileSet3.yy",},},
+>>>>>>> Stashed changes
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
